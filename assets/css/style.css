@@ -1,6 +1,11 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
+
 .oswald {
   font-family: 'Oswald', sans-serif;
+}
+.purple {
+  background-color: #660066;
+  color: #fff;
 }
