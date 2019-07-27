@@ -13,6 +13,9 @@ body {
   background-color: #660066;
   color: #fff;
 }
+.gray {
+  background-color: #EBEBEB;
+}
 
 .text-purple {
   color: #660066;
@@ -36,6 +39,7 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
 
 /*Esto ya fue tonteando*/
 /*CONTROLADORES*/
