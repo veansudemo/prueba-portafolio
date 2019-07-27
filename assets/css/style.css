@@ -5,7 +5,21 @@ body {
 .oswald {
   font-family: 'Oswald', sans-serif;
 }
+.oswald-light {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+}
 .purple {
   background-color: #660066;
   color: #fff;
+}
+
+.contenedor-img {
+  position: relative;
+}
+.text-overlay {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
