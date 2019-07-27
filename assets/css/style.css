@@ -5,16 +5,19 @@ body {
 .oswald {
   font-family: 'Oswald', sans-serif;
 }
+
 .oswald-light {
   font-family: 'Oswald', sans-serif;
   font-weight: 200;
 }
+
 .purple {
   background-color: #660066;
   color: #fff;
 }
+
 .gray {
-  background-image: url("../img/type-form.jpg");
+  background-image: url("../img/type_form.jpg");
   max-width: 100%;
 }
 
@@ -25,22 +28,25 @@ body {
 .contenedor-img {
   position: relative;
 }
+
 .text-overlay {
   position: absolute;
   top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 .semi-bold {
   font-weight: 600;
 }
+
 .interlineado {
   line-height: 40px;
 }
+
 html {
   scroll-behavior: smooth;
 }
-
 
 /*Esto ya fue tonteando*/
 /*CONTROLADORES*/
@@ -48,15 +54,12 @@ html {
 .carousel-control-next-icon {
   height: 100px;
   width: 100px;
-
   background-size: 100%, 100%;
   border-radius: 50%;
-
   background-image: none;
 }
 
-.carousel-control-next-icon:after
-{
+.carousel-control-next-icon:after {
   content: '>';
   font-size: 55px;
   color: #660066;
@@ -67,9 +70,8 @@ html {
   font-size: 55px;
   color: #660066;
 }
+
 /*INDICADORES*/
-
-
 ol.carousel-indicators li,
 ol.carousel-indicators li.active {
   float: left;
