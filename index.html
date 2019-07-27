@@ -19,7 +19,7 @@
 
 <body>
   <!--NAVBAR-->
-  <nav class="navbar navbar-expand-lg navbar-dark purple px-5">
+  <nav class="navbar navbar-expand-lg navbar-dark purple px-5 fixed-top">
     <a class="navbar-brand oswald px-5 font-weight-bold" href="#">M</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -29,11 +29,11 @@
       <ul class="navbar-nav ml-auto">
         <!--List item 1-->
         <li class="nav-item">
-          <a class="nav-link" href="#">Sobre mi</a>
+          <a class="nav-link" href="#sobre-mi">Sobre mi</a>
         </li>
         <!--List item 2-->
         <li class="nav-item">
-          <a class="nav-link" href="#">Experiencia</a>
+          <a class="nav-link" href="#experiencia">Experiencia</a>
         </li>
         <!--List item 3-->
         <li class="nav-item">
@@ -47,22 +47,108 @@
     </div>
   </nav>
   <!--HEADER-->
-  <!--Header XL-->
   <header class="container-fluid contenedor-img text-center text-white ">
     <div class="row">
       <!--IMG XL-->
-      <img class="img-fluid d-none d-lg-block"src="assets/img/bg_hero.png" alt="">
+      <img class="img-fluid d-none d-lg-block" src="assets/img/bg_hero.png" alt="">
       <!--IMG XS-->
-      <img class="img-fluid d-lg-none"src="assets/img/bg_hero_small.png" alt="">
+      <img class="img-fluid d-lg-none" src="assets/img/bg_hero_small.png" alt="">
       <div class="text-overlay">
         <h1 class="oswald-light font-weight-light display-4">YO SOY</h1>
         <h2 class="oswald font-weight-bold border-top border-white display-4">MAGDALENA</h2>
       </div>
     </div>
   </header>
+  <!--SOBRE MI-->
+  <section id="sobre-mi" class="container text-center py-5 text-dark d-none d-lg-block">
+    <div class="row ">
+      <h3 class="semi-bold py-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus.</h2>
+        <div class="col-sm text-left">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia
+            nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu,
+            lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
+        </div>
+        <div class="col-sm text-left">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia
+            nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu,
+            lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
+        </div>
+    </div>
+  </section>
+  <!--EXPERIENCIA-->
+  <section id="experiencia" class=" container-fluid text-center purple py-5">
+    <h3 class="oswald font-weight-bold pb-5"> EXPERIENCIA </h3>
+    <div class="row">
+      <!--EXPERIENCIA 1-->
+      <div class="col-sm">
+        <a data-toggle="modal" data-target="#modal-1"><img src="assets/img/icons8-fin.png" data-toggle="tooltip" data-placement="top" title="Click on me" alt=""></a>
+        <h5 class="semi-bold oswald">CARGO-CARGO</h5>
+        <p> 29/06/1989 - 29/06/20XX</p>
+      </div>
+      <!--EXPERIENCIA 2-->
+      <div class="col-sm">
+        <a data-toggle="modal" data-target="#modal-2"><img src="assets/img/icons8-jake.png" data-toggle="tooltip" data-placement="top" title="Click on me" alt="" alt=""></a>
+        <h5 class="semi-bold oswald">CARGO-CARGO</h5>
+        <p> 29/06/1989 - 29/06/20XX</p>
+      </div>
+      <!--EXPERIENCIA 3-->
+      <div class="col-sm">
+        <a data-toggle="modal" data-target="#modal-3"><img src="assets/img/icons8-bmo.png" data-toggle="tooltip" data-placement="top" title="Click on me" alt="" alt=""></a>
+        <h5 class="semi-bold oswald">CARGO-CARGO</h5>
+        <p> 29/06/1989 - 29/06/20XX</p>
+      </div>
+    </div>
+  </section>
+  <!--MODALES EXPERIENCIA-->
+  <!--MODAL experiencia 1-->
+  <div class="modal fade" id="modal-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title semi-bold text-purple" id="exampleModalLabel">CARGO-CARGO</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--MODAL experiencia 2-->
+  <div class="modal fade" id="modal-2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title semi-bold text-purple" id="exampleModalLabel">CARGO-CARGO</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--MODAL experiencia 3-->
+  <div class="modal fade" id="modal-3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title semi-bold text-purple" id="exampleModalLabel">CARGO-CARGO</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-
-  <!--List item 1-->
 
   <!-- JQUERY 3.3.1 SLIM-->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
